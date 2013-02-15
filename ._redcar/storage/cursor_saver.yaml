@@ -105,9 +105,6 @@ cursor_positions:
   - :path: app/views/shared/_stats.html.erb
     :cursor_offset: 48
     :timestamp: 2013-02-05 18:12:39.562000 +02:00
-  - :path: app/views/users/show_follow.html.erb
-    :cursor_offset: 374
-    :timestamp: 2013-02-05 18:39:07.373000 +02:00
   - :path: app/views/users/_user.html.erb
     :cursor_offset: 473
     :timestamp: 2013-02-07 19:12:38.736000 +02:00
@@ -144,9 +141,6 @@ cursor_positions:
   - :path: app/views/shared/_user_info.html.erb
     :cursor_offset: 108
     :timestamp: 2013-02-05 13:30:25.698000 +02:00
-  - :path: app/views/users/index.html.erb
-    :cursor_offset: 0
-    :timestamp: 2013-02-04 11:45:53.195000 +02:00
   - :path: config/environment.rb
     :cursor_offset: 81
     :timestamp: 2013-02-07 21:44:22.029000 +02:00
@@ -162,9 +156,6 @@ cursor_positions:
   - :path: app/assets/stylesheets/sessions.css.scss
     :cursor_offset: 0
     :timestamp: 2013-02-04 11:45:52.656000 +02:00
-  - :path: app/assets/stylesheets/comments.css.scss
-    :cursor_offset: 0
-    :timestamp: 2013-02-06 20:43:50.756000 +02:00
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2013-02-04 11:45:52.620000 +02:00
@@ -189,21 +180,18 @@ cursor_positions:
   - :path: app/views/users/new.html.erb
     :cursor_offset: 471
     :timestamp: 2013-02-08 13:04:04.859000 +02:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 417
-    :timestamp: 2013-02-07 21:41:55.117000 +02:00
   - :path: app/views/users/show.html.erb
     :cursor_offset: 200
     :timestamp: 2013-02-08 10:12:44.385000 +02:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 545
     :timestamp: 2013-02-07 23:02:14.427000 +02:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 2615
-    :timestamp: 2013-02-08 09:59:08.823000 +02:00
   - :path: app/views/static_pages/help.html.erb
     :cursor_offset: 38
     :timestamp: 2013-02-08 11:42:29.418000 +02:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 2615
+    :timestamp: 2013-02-08 09:59:08.823000 +02:00
   - :path: app/views/layouts/_header.html.erb
     :cursor_offset: 309
     :timestamp: 2013-02-08 11:42:14.703000 +02:00
@@ -213,4 +201,16 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 0
     :timestamp: 2013-02-04 11:45:52.360000 +02:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-02-04 11:45:53.195000 +02:00
+  - :path: app/views/users/show_follow.html.erb
+    :cursor_offset: 374
+    :timestamp: 2013-02-05 18:39:07.373000 +02:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 417
+    :timestamp: 2013-02-07 21:41:55.117000 +02:00
+  - :path: app/assets/stylesheets/comments.css.scss
+    :cursor_offset: 0
+    :timestamp: 2013-02-06 20:43:50.756000 +02:00
 files_to_retain: 0

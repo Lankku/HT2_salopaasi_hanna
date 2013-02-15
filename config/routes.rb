@@ -15,7 +15,7 @@ SampleApp::Application.routes.draw do
   resources :microposts, only: [:create, :destroy]
   resources :microposts, :has_many => :comments
   resources :relationships, only: [:create, :destroy]
-  #resources :comments, only: [:create, :destroy]
+  resources :comments, only: [:create, :destroy]
       
   root to: 'static_pages#home'
 
