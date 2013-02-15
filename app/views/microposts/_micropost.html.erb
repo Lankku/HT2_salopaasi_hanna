@@ -1,0 +1,34 @@
+<li>
+  <span class="content"><%= micropost.content %></span>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(micropost.created_at) %> ago.
+  </span>
+  <% if current_user?(micropost.user) %>
+    <%= link_to "delete", micropost, method: :delete,
+                                     data: { confirm: 'You sure?' },
+                                     title: micropost.content %>
+  <% end %>
+  <span class="content">
+  <% micropost.comments.each do |comment|%>
+    <p>
+      <%= comment.body %>  
+      <%= comment.user.name %>
+    </p>
+    <span class="timestamp">
+      Posted <%= time_ago_in_words(comment.created_at) %> ago.
+    </span>
+    <% if current_user?(comment.user) %>
+      <%= link_to "delete", comment, method: :delete,
+                                      data: { confirm: 'You sure?' }%>   
+    <%end%>
+  <% end %>
+  </span>
+  <% if current_user?(micropost.user) %>
+    <%= render 'shared/comment_form', micropost: micropost %>
+  <% end %>
+  <% micropost.user.followed_users.each do |followed| %>
+    <% if current_user?(followed) && micropost.user.active? %>
+      <%= render 'shared/comment_form', micropost: micropost %>
+    <% end %>
+  <% end %>
+</li>

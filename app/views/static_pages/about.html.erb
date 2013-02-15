@@ -1,0 +1,66 @@
+<% provide(:title, 'About') %>
+<h1>About</h1>
+<div class="center">
+<p>
+  Hanna Salopaasi
+</br>
+  0358645
+</br>
+  hanna.salopaasi@lut.fi
+</p>
+</div>
+<p>
+  Harjoitustyö on tehty Ruby on Railsilla.
+  Pohjana harjoityössä on käytetty <a href="http://railstutorial.org/">Ruby on Rails Tutoriaalia</a>.
+  Toisena apuna on ollut 
+  <a href="http://guides.rubyonrails.org/getting_started.html">Getting started with Rails-tutoriaali</a>.
+</p>
+<p>
+  Kaikkia tehtävänannossa vaadittuja ominaisuuksia ei harjoitustyöstä valitettavasti kiinnostuksen
+  puutteen takia löydy. 
+  
+  <ul>
+    Puuttuvat ominaisuudet:
+
+    <li>RSS-syöte</li>
+    <li>mobiiliasettelu</li>
+  </ul>
+  <ul>
+    Puuttuvat vaihtoehtoiset ominaisuudet:
+    <li>offline-selailu</li>
+    <li>geo-tagit</li>
+
+  </ul>
+  
+  Muut vaaditut ominaisuudet löytyvät.
+  
+</p>
+<h3>Admin</h3>
+<p>
+  Admin ominaisuuden voi kytkeä päälle ainoastaan railsin komentoriviä käyttäen: (User.find(haluttu_id).toggle!(:admin)).
+  Valmiina adminina databasessa on admin/123456. Admin voi poistaa ja jäädyttää käyttäjiä käyttäjälistauksesta. Tämän
+  lisäksi admin-käyttäjillä näkyy headerin pudotusvalikossa erillinen admin-sivu, josta voi lisätä käyttäjän.
+</p>
+<h3>Käyttäjä</h3>
+<p>
+  Esimerkkikäyttäjänä järjestelmässä on sssss/123456. Käyttäjä pystyy tekemään päivityksiä omalta home-sivultaan. Home sivulla myös
+  näkyy käyttäjän feed, johon tulee näkymään käyttäjän seuraamien käyttäjien päivitykset. Tämä ei ollut tarkoitettu ominaisuus, mutta
+  sen poistaminen osoittautui sen merkitystä monimutkaisemmaksi, joten ominaisuus säilyi. Käyttäjän päivityksiä pystyy kommentoimaan,
+  jos käyttäjä, jonka päivitystä haluaa kommentoida, seuraa käyttäjää, joka haluaa kommentoida. 
+</p>
+<p>
+  Käyttäjää luodessa kysytään käyttäjänimi, note ja salasana. Note näkyy käyttäjän profiilisivulla tämän nimen perässä. Se on rajoitettu
+  50 merkkiin ja siinä voi kertoa esimerkiksi oikean nimen tai hauskan kommentin itsestään tai mistä tahansa. Note ei ole pakollinen ja
+  käyttäjä pystyy muokkaamaan sitä omista asetuksistaan.
+</p>
+<h3>Päivitykset/kommentit</h3>
+<p>
+  Käyttäjä pystyy poistamaan päivityksiään ja kommenttejaan.  
+</p>
+<p>
+  Käyttäjä pystyy valitsemaan kenen hän haluaa pystyvän kommentoimaan omia päivityksiään seuraamalla näitä käyttäjiä. Seuraamalla käyttäjää
+  et siis pysty automaattisesti kommentoimaan hänen päivityksiään, vaan kyseisen käyttäjän pitää myös seurata sinun päivityksiäsi.</p>
+<h3>Kaverilista</h3>
+<p>
+  Käyttäjän kaverilista eli ketä käyttäjä seuraa näkyy käyttäjän profiilisivulla.
+</p>

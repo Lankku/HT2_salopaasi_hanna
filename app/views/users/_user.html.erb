@@ -1,0 +1,15 @@
+<li>
+  <%= link_to user.name, user %>
+  <% if current_user.admin? && !current_user?(user) %>
+    | <%= link_to "delete", user, method: :delete,
+                                  data: { confirm: "You sure to delete this user?" } %>
+    <% if user.active %>
+    | <%= link_to "inactivate", toggle_user_path(user), :method => :put,
+                                  data: { confirm: "You sure to inactivate user?" } %>
+    <% else %>
+    | <%= link_to "activate", toggle_user_path(user), :method => :put, 
+                                  data: { confirm: "You sure to activate user?" } %>
+    <% end %>
+    
+  <% end %>
+</li>
