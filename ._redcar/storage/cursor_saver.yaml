@@ -60,12 +60,6 @@ cursor_positions:
   - :path: app/models/comment.rb
     :cursor_offset: 101
     :timestamp: 2013-02-05 20:49:59.493000 +02:00
-  - :path: app/views/microposts/_micropost.html.erb
-    :cursor_offset: 1063
-    :timestamp: 2013-02-07 17:10:12.288000 +02:00
-  - :path: app/controllers/comments_controller.rb
-    :cursor_offset: 282
-    :timestamp: 2013-02-07 17:07:14.417000 +02:00
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 130
     :timestamp: 2013-02-05 13:27:55.826000 +02:00
@@ -123,9 +117,6 @@ cursor_positions:
   - :path: app/views/shared/_feed.html.erb
     :cursor_offset: 80
     :timestamp: 2013-02-04 11:45:53.069000 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 894
-    :timestamp: 2013-02-07 21:15:20.250000 +02:00
   - :path: app/assets/javascripts/sessions.js.coffee
     :cursor_offset: 0
     :timestamp: 2013-02-04 11:45:52.529000 +02:00
@@ -162,27 +153,15 @@ cursor_positions:
   - :path: app/views/static_pages/location.html.erb
     :cursor_offset: 389
     :timestamp: 2013-02-07 21:21:42.089000 +02:00
-  - :path: app/views/shared/_comments.html.erb
-    :cursor_offset: 126
-    :timestamp: 2013-02-06 21:04:48.814000 +02:00
   - :path: public/robots.txt
     :cursor_offset: 204
     :timestamp: 2013-02-04 11:45:53.624000 +02:00
   - :path: app/models/user.rb
     :cursor_offset: 816
     :timestamp: 2013-02-08 10:13:44.721000 +02:00
-  - :path: app/views/shared/_micropost_form.html.erb
-    :cursor_offset: 34
-    :timestamp: 2013-02-05 13:19:41.643000 +02:00
-  - :path: app/views/shared/_comment_form.html.erb
-    :cursor_offset: 242
-    :timestamp: 2013-02-08 11:39:01.610000 +02:00
   - :path: app/views/users/new.html.erb
     :cursor_offset: 471
     :timestamp: 2013-02-08 13:04:04.859000 +02:00
-  - :path: app/views/users/show.html.erb
-    :cursor_offset: 200
-    :timestamp: 2013-02-08 10:12:44.385000 +02:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 545
     :timestamp: 2013-02-07 23:02:14.427000 +02:00
@@ -213,4 +192,25 @@ cursor_positions:
   - :path: app/assets/stylesheets/comments.css.scss
     :cursor_offset: 0
     :timestamp: 2013-02-06 20:43:50.756000 +02:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 200
+    :timestamp: 2013-02-08 10:12:44.385000 +02:00
+  - :path: app/views/shared/_comments.html.erb
+    :cursor_offset: 126
+    :timestamp: 2013-02-06 21:04:48.814000 +02:00
+  - :path: app/views/shared/_comment_form.html.erb
+    :cursor_offset: 242
+    :timestamp: 2013-02-08 11:39:01.610000 +02:00
+  - :path: app/views/shared/_micropost_form.html.erb
+    :cursor_offset: 34
+    :timestamp: 2013-02-05 13:19:41.643000 +02:00
+  - :path: app/views/microposts/_micropost.html.erb
+    :cursor_offset: 682
+    :timestamp: 2013-02-07 17:10:12.288000 +02:00
+  - :path: app/controllers/comments_controller.rb
+    :cursor_offset: 282
+    :timestamp: 2013-02-07 17:07:14.417000 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 442
+    :timestamp: 2013-02-15 16:04:18.830000 +02:00
 files_to_retain: 0
