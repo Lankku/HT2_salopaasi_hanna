@@ -210,4 +210,7 @@ cursor_positions:
   - :path: app/views/static_pages/about.html.erb
     :cursor_offset: 2166
     :timestamp: 2013-02-08 13:19:42.672000 +02:00
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2013-02-04 11:45:52.360000 +02:00
 files_to_retain: 0
